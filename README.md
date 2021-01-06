@@ -7,6 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# Documentation link
+# Todo Api
 
-https://app.swaggerhub.com/apis-docs/Dhaxor/Todo-Api/1.0.0#/
+Documentation:  https://app.swaggerhub.com/apis-docs/Dhaxor/Todo-Api/1.0.0#/
