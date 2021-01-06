@@ -27,7 +27,7 @@ class TodosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request,Todo $todo)
     {
         $validator = Validator::make($request->all(),[
             'body'=> 'required'
@@ -59,7 +59,7 @@ class TodosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $todo)
+    public function update(Request $request, Todo $todo)
     {
         $validator = Validator::make($request->all(),[
             'body'=> 'required'
@@ -87,7 +87,7 @@ class TodosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id,Todo $todo)
     {
        $todo =  Todo::find($id);
 
